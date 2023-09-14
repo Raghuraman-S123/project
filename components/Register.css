@@ -1,0 +1,30 @@
+.form-login{
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    
+    /* Register */
+    #gender{
+        width: 120px;
+        height: 40px;
+    }
+    /* Register */
+    #name-label{
+        display: block;
+    }
+    /* Register */
+     .create-acct-group{
+        display:flex;
+        flex-wrap: row wrap;
+    } 
+    /* Register */
+    .create-acct-group label{
+        align-items: center;
+    }
+    /* Register */
+    .create-acct-group input{
+        margin: 10px;
+        margin-left: 0px;
+    }
+}

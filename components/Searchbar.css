@@ -1,0 +1,11 @@
+form > #searchbar{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #aaa;
+    padding: 15px; 
+  }
+  form > #searchbar > input {
+    width: 75%;
+    margin-left: 25px;;
+  }

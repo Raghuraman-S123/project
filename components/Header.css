@@ -1,0 +1,33 @@
+
+#logo {
+    padding:  0 20px 20px 0;
+    float: left;
+}
+
+/* Change color on hover */
+.topnav a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 28px 25px;
+    
+  }
+
+  #cart {
+    float: right;
+    background-color: #aaa;
+  }
+
+  

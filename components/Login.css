@@ -1,0 +1,57 @@
+
+
+#login-title{
+    text-align:center;
+}
+#new_userlink{
+    margin-right: 20px;
+}
+.login-page{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
+@media screen and (max-width: 576px){
+    .register{
+        display: none;
+    }
+}
+
+.login-redirect{
+    font-size: 15px;
+    float:right;
+    margin-top: 0px;
+    padding-bottom: 20px;
+}
+@media screen and (min-width: 576px){
+    .login-page{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        padding: 50px;
+        margin: 50px;
+    }
+    .register-btn{
+        width: 90%;
+        margin-left: 10px;
+        height: 40px;
+    }
+    .register{
+       position:relative;
+       bottom:70px;
+    }
+    .register button{
+        position:relative;
+        top:40px;
+    }
+    .divider-line{
+        border-left: 3px solid #918037;
+        height: 500px;
+    }
+    #new_userlink{
+        display:none;
+    }
+
+}
